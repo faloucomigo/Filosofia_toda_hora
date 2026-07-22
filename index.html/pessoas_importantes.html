@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filósofos Importantes | Filosofia toda hora</title>
+
+    <style>
+        /* Estilos Reutilizados da Página Principal */
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #4a4a6e;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            border-bottom: 3px solid #b8b8d1;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        /* Estilo para o Botão/Link de Voltar (Home) */
+        .voltar-home {
+            text-decoration: none; 
+            color: #6a5acd; 
+            font-weight: bold;
+            font-size: 1.1em;
+            padding: 10px 15px;
+            margin: 10px 0 40px 0;
+            display: inline-block;
+            transition: color 0.3s, background-color 0.3s;
+            border-radius: 4px;
+            border: 1px solid #6a5acd;
+        }
+
+        .voltar-home:hover {
+            color: #ffffff; 
+            background-color: #4a4a6e;
+            border-color: #4a4a6e;
+        }
+
+        /* 🖼️ Estilos para a Imagem do Filósofo */
+        .filosofo-img {
+            width: 120px; 
+            height: 120px;
+            object-fit: cover; 
+            border-radius: 50%; /* Torna a imagem redonda */
+            border: 4px solid #b8b8d1; 
+            margin-bottom: 15px;
+            display: block; 
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Estilos Específicos para os Cards de Filósofos */
+        .filosofos-grid {
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+            gap: 25px; 
+            max-width: 1200px; 
+            margin: 0 auto;
+        }
+
+        .card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            width: 300px; 
+            text-align: center; 
+            transition: transform 0.3s; 
+        }
+
+        .card:hover {
+            transform: translateY(-5px); 
+        }
+
+        .card h2 {
+            color: #4a4a6e;
+            margin-top: 0;
+            font-size: 1.6em;
+            border-bottom: 2px solid #e0e0f0;
+            padding-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 0.95em;
+            color: #555;
+            margin-bottom: 15px;
+            text-align: left; 
+        }
+
+        .card strong {
+            color: #6a5acd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pessoas Importantes na Filosofia</h1>
+
+    <a href="./index.html" class="voltar-home">⬅️ Voltar para a Página Inicial</a>
+
+    <div class="filosofos-grid">
+        <div class="card">
+            <img src="socrates.jpg" alt="Busto de Sócrates" class="filosofo-img">
+            <h2>Sócrates</h2>
+            <p>
+                **Período:** Clássico (470–399 a.C.)<br>
+                **Principais Ideias:** Método Socrático (Maiêutica), a busca pelo autoconhecimento ("Conhece-te a ti mesmo"), e a importância da virtude e da moralidade.
+            </p>
+            <p>
+                Considerado o pai da filosofia ocidental. Não deixou obras escritas; seu pensamento é conhecido através de seus discípulos, como Platão.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="platao.jpg" alt="Busto de Platão" class="filosofo-img">
+            <h2>Platão</h2>
+            <p>
+                **Período:** Clássico (428–348 a.C.)<br>
+                **Principais Ideias:** Teoria das Formas (ou Ideias), a Alegoria da Caverna, a fundação da Academia de Atenas e a filosofia política em "A República".
+            </p>
+            <p>
+                Discípulo de Sócrates e mestre de Aristóteles. Seus diálogos formaram a base de grande parte da filosofia e ciência ocidentais.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="aristoteles.jpg" alt="Busto de Aristóteles" class="filosofo-img">
+            <h2>Aristóteles</h2>
+            <p>
+                **Período:** Clássico (384–322 a.C.)<br>
+                **Principais Ideias:** Lógica formal, Ética (a busca pela felicidade e a "Justa Medida"), Metafísica, e fundação da ciência biológica e física.
+            </p>
+            <p>
+                Discípulo de Platão e tutor de Alexandre, o Grande. Seu pensamento dominou a filosofia ocidental por séculos.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="kant.jpg" alt="Retrato de Immanuel Kant" class="filosofo-img">
+            <h2>Immanuel Kant</h2>
+            <p>
+                **Período:** Moderno (1724–1804)<br>
+                **Principais Ideias:** O Imperativo Categórico, a filosofia transcendental (o "giro copernicano"), e a distinção entre fenômeno e númeno.
+            </p>
+            <p>
+                Um dos pensadores mais influentes da filosofia ocidental, que buscou conciliar o racionalismo e o empirismo.
+            </p>
+        </div>
+
+    </div>
+</body>
+</html>
